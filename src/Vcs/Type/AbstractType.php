@@ -4,6 +4,8 @@ use ReadmeGen\Shell;
 
 abstract class AbstractType implements TypeInterface
 {
+    const SCOPE_SEPARATOR = '{{SCOPE_SEPARATOR}}';
+    const SUBJECT_SEPARATOR = '{{SUBJECT_SEPARATOR}}';
     const MSG_SEPARATOR = '{{MSG_SEPARATOR}}';
     
     /**
