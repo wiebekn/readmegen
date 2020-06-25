@@ -1,7 +1,7 @@
 <?php namespace ReadmeGen\Input;
 
-use Ulrichsg\Getopt\Getopt;
-use Ulrichsg\Getopt\Option;
+use Getopt\Getopt;
+use Getopt\Option;
 
 /**
  * Input parser.
